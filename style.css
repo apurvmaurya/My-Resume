@@ -1,11 +1,23 @@
 html{
-    font-style: oblique;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: x-large;
-    background-color: rgba(182, 205, 50, 0.676);
+    background-color: #A4EBF3;
 }
-h1{
-    color: rgba(0, 42, 255, 0.74);
+
+.head{
+    display: flex;
+    gap: 50px;
+    height: 200px;
 }
-h2{
-    color: royalblue;
+.head > img{
+    border-radius: 50%;
+}
+h1 , h2{
+    color: firebrick;
+}
+
+summary{
+    font-size: x-large;
+    color: firebrick;
+    font-weight: bold;
 }
