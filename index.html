@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang ="en">
+    
     <head>
         <meta charset ="UTF-8">
         <title>Resume</title>
-        <!--External CSS-->
-        <link
-            rel="stylesheet"
-            href="./style.css"
-            />
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     </head>
+
     <body>
+        <div class="head">
         <h1>Apurv Maurya</h1>
-        <img height ="200" src ="./1.jpeg">
+        <img src ="./1.jpeg">
+        </div>
+        <hr />
         <h2>Summary</h2>
         <p>I am 17 years old and currently persuing my Bachelor's Degree.</p>
         <hr />
@@ -26,15 +30,17 @@
             <li>C++</li>
         </ul>
         <hr />
-        <h2>Others</h2>
-        <ul>
+        <details>
+            <summary>Others</summary>
+            <ul>
             <li><a href = "./hobbies.html">My Hobbies</a></li>
             <li><a href = "./contact.html">Contact Me</a></li>
-        </ul>
+            </ul>
+        </details>
         <footer>
             <small>
-            ©Apurv Maurya.All rights reserved.
-        </small>
+            ©Apurv Maurya
+            </small>
         </footer>
     </body>
 </html>
